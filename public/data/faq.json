@@ -1,0 +1,97 @@
+[
+  {
+    "title": "Inventory & Stock Management",
+    "faq": [
+      {
+        "id": 1,
+        "questions": "How does Shop Desk help with inventory management?",
+        "answers": "ShopDesk makes inventory management effortless by giving you real-time stock updates across all your locations. It automates stock tracking, reduces manual work, and alerts you before products run out. With everything in one platform, you always know exactly what’s in stock, what’s selling, and what needs restocking."
+      },
+      {
+        "id": 2,
+        "questions": "Can I add multiple products at once?",
+        "answers": "Yes, ShopDesk supports bulk product uploads. Instead of adding items one by one, you can import multiple products at once using a simple file upload. This saves time, especially when setting up your store or adding large inventories."
+      },
+      {
+        "id": 3,
+        "questions": "What happens when a product goes out of stock?",
+        "answers": "When an item runs out, ShopDesk instantly notifies you so you can restock on time. It also provides predictive suggestions based on sales trends, helping you avoid lost sales from stockouts. Customers and staff can also see the updated stock status, keeping everything accurate and transparent."
+      },
+      {
+        "id": 4,
+        "questions": "Does Shop Desk support barcode scanning?",
+        "answers": "Yes, ShopDesk works seamlessly with barcode scanners. You can scan products to add them to inventory, update stock, or record sales quickly. This reduces errors, speeds up operations, and ensures every product movement is tracked accurately."
+      }
+    ]
+  },
+  {
+    "title": "Reports & Analytics",
+    "faq": [
+      {
+        "id": 5,
+        "questions": "What types of reports can I generate with Shop Desk?",
+        "answers": "You can generate detailed reports on sales, inventory levels, restocking needs, and business performance. These reports give you insights into what’s working and what needs attention, helping you make data-driven decisions. Reports are easy to understand and available in real time."
+      },
+      {
+        "id": 6,
+        "questions": "How can I track my best-selling products?",
+        "answers": "ShopDesk highlights your top-selling products right on the dashboard. You can see which items drive the most revenue and identify seasonal or trending products. This helps you focus on high-performing stock and plan smarter purchasing."
+      },
+      {
+        "id": 7,
+        "questions": "Can I monitor my daily sales performance?",
+        "answers": "Yes, ShopDesk allows you to track your sales performance on a daily basis. You can view sales summaries, monitor peak hours, and see how your team is performing. This makes it easier to spot growth opportunities or quickly address drops in sales."
+      },
+      {
+        "id": 8,
+        "questions": "Can I export reports for external use?",
+        "answers": "Absolutely. ShopDesk lets you export reports in formats like PDF and CSV. This makes it easy to share data with your team, accountants, or business partners, and to integrate it with other tools you may already use."
+      }
+    ]
+  },
+  {
+    "title": "Account & Security",
+    "faq": [
+      {
+        "id": 9,
+        "questions": "How do I reset my password if I forget it?",
+        "answers": "If you forget your password, simply click the ‘Forgot Password’ link on the login page. You’ll receive a secure email with instructions to reset it. The process is quick and ensures you can get back into your account safely."
+      },
+      {
+        "id": 10,
+        "questions": "How can I update my account details?",
+        "answers": "You can update your account details anytime from your profile settings. This includes changing your email, phone number, business information, or notification preferences. All updates are applied instantly across your account."
+      },
+      {
+        "id": 11,
+        "questions": "Is my data secure with Shop Desk?",
+        "answers": "Yes. ShopDesk uses bank-level encryption and secure cloud servers to keep your data safe. We also perform regular backups, so your inventory and sales data are always protected against loss or breaches."
+      },
+      {
+        "id": 12,
+        "questions": "What should I do if I notice suspicious activity?",
+        "answers": "If you see anything unusual in your account, change your password immediately. Then contact our support team so we can investigate and secure your account. We take account safety seriously and will guide you through every step."
+      }
+    ]
+  },
+  {
+    "title": "Support & Assistance",
+    "faq": [
+      {
+        "id": 13,
+        "questions": "How do I contact support?",
+        "answers": "You can reach our support team anytime by emailing support@shopdesk.com or calling +234-814-285-8076. We also offer live chat on the platform for quick help. Our team is always ready to assist you with setup, troubleshooting, or any questions."
+      },
+      {
+        "id": 14,
+        "questions": "How do I reset my password?",
+        "answers": "To reset your password, go to the login screen and click ‘Forgot Password.’ You’ll receive a secure email link to create a new password. If you don’t see the email, check your spam folder or reach out to support for help."
+      },
+      {
+        "id": 15,
+        "questions": "What if I have a technical issue?",
+        "answers": "If you run into a technical issue, you can contact our support team, and we’ll resolve it as quickly as possible. Most issues are fixed within minutes. We also provide guides and resources in our Help Center to assist you step by step."
+      }
+    ]
+  }
+]

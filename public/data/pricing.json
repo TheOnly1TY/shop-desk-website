@@ -1,0 +1,47 @@
+[
+  {
+    "popularPlan": false,
+    "name": "Starter",
+    "purpose": "For small business just getting started",
+    "amount": 0,
+    "feaures": [
+      "Manage up to 50 products",
+      "Track basic inventory & sales",
+      "Automated low-stock alerts",
+      "Basic reporting & insights",
+      "Community support"
+    ]
+  },
+  {
+    "popularPlan": true,
+    "name": "Growth",
+    "purpose": "For growing businesses that need more control",
+    "amount": 50000,
+    "duration": "month",
+    "feaures": [
+      "Everything in Starter, plus:",
+      "Manage unlimited products",
+      "Advanced inventory tracking",
+      "Multi-location stock management",
+      "Sales & profit analysis",
+      "Email & chat support"
+    ]
+  },
+  {
+    "popularPlan": false,
+    "name": "Pro",
+    "purpose": "For businesses that need full automation & insights",
+    "amount": 150000,
+    "duration": "month",
+    "feaures": [
+      "Everything in Growth, plus:",
+      "Automated reordering system",
+      "Team accounts with permissions",
+      "Customizable reports",
+      "Integration with POS & accounting tools",
+      "Priority customer support",
+      "Multi-store management",
+      "Unlimited API access for third-party Apps"
+    ]
+  }
+]
