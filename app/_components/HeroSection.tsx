@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import { motion, Variants } from "framer-motion";
 import { Star } from "lucide-react";
+import { motion, Variants } from "framer-motion";
 
 export default function HeroSection() {
   const containerVariants: Variants = {

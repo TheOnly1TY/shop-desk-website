@@ -9,7 +9,6 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@next/bundle-analyzer": "^15.5.3",
     "@sanity/image-url": "^1.2.0",
     "framer-motion": "^12.23.12",
     "lucide-react": "^0.544.0",
