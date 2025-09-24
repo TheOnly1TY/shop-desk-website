@@ -38,7 +38,7 @@ export default function ReviewCard({ Data, searchWord }: ReviewCardProps) {
               </div>
             </div>
             {/* Middle: Message */}
-            <p className="text-base text-[#2a2a2a] leading-6">
+            <blockquote className="text-base text-[#2a2a2a] leading-6">
               {extractPlainText(review.message)
                 .split(" ")
                 .map((word, i) => {
@@ -67,7 +67,7 @@ export default function ReviewCard({ Data, searchWord }: ReviewCardProps) {
                   }
                   return <span key={i}>{word} </span>;
                 })}
-            </p>
+            </blockquote>
 
             {/* Bottom: Rating */}
             <div className="flex justify-start items-center gap-1">

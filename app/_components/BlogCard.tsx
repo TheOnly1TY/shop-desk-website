@@ -31,7 +31,7 @@ export default function BlogCard({
               alt="blog image"
             />
             <h3 className="text-xl font-semibold leading-[28px] text-[#2a2a2a] mb-[8px]">
-              {blogpost.blogTitle}
+              {blogpost.title}
             </h3>
             <BlogPost blogPost={extractPlainText(blogpost.blogPost)} />
             <div className="inline-flex items-center gap-6 mt-[8px]">
