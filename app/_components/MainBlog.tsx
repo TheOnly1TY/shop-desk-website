@@ -32,7 +32,7 @@ export default function MainBlog() {
                 src="/blog/shopdesk-team.jpg"
                 width={32}
                 height={32}
-                className="w-8 h-8 rounded-full"
+                className="w-8 h-8 object-cover rounded-full"
                 alt="shop desk"
               />
               <span className="text-xs leading-5 md:text-base md:leading-6">
