@@ -49,7 +49,7 @@ export default function Modal({
                   type="email"
                   id="email"
                   {...register("email", {
-                    required: "This field is required",
+                    required: "can't be empty",
                     pattern: {
                       value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
                       message: "invalid email",

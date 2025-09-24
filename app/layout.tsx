@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${circular.className} antialiased`}>
+      <body className={`${circular.className} antialiased overflow-x-hidden`}>
         <Navbar />
         {children}
         <Footer />

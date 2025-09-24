@@ -27,7 +27,7 @@ export default function InputRatingField() {
         value={query}
         onChange={handleChange}
         placeholder="Looking for something specific?"
-        className="w-[373px] text-[#2a2a2a] h-[42px] border border-[#8d8d8d] placeholder:text-sm rounded-sm px-3 focus:border-[#009a49] outline-none"
+        className="w-full md:w-[373px] text-[#2a2a2a] h-[42px] border border-[#8d8d8d] placeholder:text-sm rounded-sm px-3 focus:border-[#009a49] outline-none"
       />
     </form>
   );

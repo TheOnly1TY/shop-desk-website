@@ -94,9 +94,16 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="bg-[url(/home/bg-image-pattern.png)] bg-no-repeat bg-[length:contain] bg-[position:0_70px] lg:bg-[position:0_90px] pt-35">
+    <section className="relative pt-35">
+      <Image
+        src="/home/bg-image-pattern.png"
+        alt="Background pattern"
+        fill
+        priority
+        className="object-contain object-[0_70px] lg:object-[0_90px] !z-0"
+      />
       <motion.div
-        className="max-w-[964px] text-center mx-auto mb-16 md:mb-24 lg:mb-40 px-6 md:px-10"
+        className="relative z-10 max-w-[964px] text-center mx-auto mb-16 md:mb-24 lg:mb-40 px-6 md:px-10"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
@@ -194,8 +201,8 @@ export default function HeroSection() {
           }}
         >
           <Image
-            src="/home/hero image.png"
-            width={1038.65}
+            src="/home/hero-image.jpg"
+            width={1038}
             height={640}
             priority
             alt="shopdesk visual sample"

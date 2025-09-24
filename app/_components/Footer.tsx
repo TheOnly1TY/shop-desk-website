@@ -3,8 +3,8 @@ import Logo from "../_ui/Logo";
 
 export default function Footer() {
   return (
-    <footer className="h-[400px] mb-14 px-6 md:px-10">
-      <div className=" max-w-[1210px] mx-auto mb-14">
+    <footer className="px-6">
+      <div className=" mx-auto mb-14">
         {" "}
         <hr className="border-t border-[#BBBBBB]" />
         <div className="flex flex-col md:flex-row justify-start md:justify-between md:items-center py-6">
@@ -30,13 +30,13 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="flex gap-x-[67px]">
-            <div>
+          <div className="flex justify-between items-center md:gap-x-[67px]">
+            <div className="">
               {" "}
               <h3 className="text-base leading-5 text-[#2a2a2a] mb-3">
                 Quicklinks
               </h3>
-              <ul className="flex flex-col gap-3">
+              <ul className="flex flex-col md:gap-3">
                 <li className="text-sm leading-5 text-[#414141]">Homepage</li>
                 <li className="text-sm leading-5 text-[#414141]">Blog</li>
                 <li className="text-sm leading-5 text-[#414141]">Pricing</li>

@@ -29,7 +29,7 @@ export default function MainBlog() {
             <p className="text-sm leading-5 mb-2">Written By</p>
             <div className="flex items-center gap-2">
               <Image
-                src="/public/blog/shopdesk-team.jpg"
+                src="/blog/shopdesk-team.jpg"
                 width={32}
                 height={32}
                 className="rounded-full"
