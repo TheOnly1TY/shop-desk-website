@@ -201,7 +201,7 @@ export default function HeroSection() {
           }}
         >
           <Image
-            src="/home/hero-image.jpg"
+            src="/home/hero-image.png"
             width={1038}
             height={640}
             priority
