@@ -20,7 +20,7 @@ export default function ReviewCard({ Data, searchWord }: ReviewCardProps) {
     <>
       <ul className="grid md:grid-cols-2 lg:grid-cols-3 gap-[42px]">
         {Data.slice(0, nextReviews).map((review) => (
-          <div
+          <li
             key={review._id}
             className="max-h-[240px] h-full w-full bg-white border-2 border-[#2a2a2a]/10 rounded-lg px-2.5 py-4 flex flex-col gap-4"
           >
@@ -33,7 +33,7 @@ export default function ReviewCard({ Data, searchWord }: ReviewCardProps) {
                 className="w-9 h-9 rounded-full object-cover"
               />
               <div className="text-sm leading-5">
-                <h3 className="text-[#2a2a2a]">{review.name}</h3>
+                <p className="text-[#2a2a2a]">{review.name}</p>
                 <p className="text-gray-500">{review.business}</p>
               </div>
             </div>
@@ -82,7 +82,7 @@ export default function ReviewCard({ Data, searchWord }: ReviewCardProps) {
                 )
               )}
             </div>
-          </div>
+          </li>
         ))}
       </ul>
       {Data.length > 9 && nextReviews <= Data.length ? (
