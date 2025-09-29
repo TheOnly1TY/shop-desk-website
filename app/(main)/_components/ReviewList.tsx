@@ -2,8 +2,8 @@ import ReviewCard from "./ReviewCard";
 import EmptyReview from "../_ui/EmptyReview";
 import { client } from "@/app/src/sanity/client";
 import { type SanityDocument } from "next-sanity";
-import { ReviewListPropsType } from "../types/Type";
-import { extractPlainText } from "../_libs/helpers";
+import { ReviewListPropsType } from "../../types/Type";
+import { extractPlainText } from "../../_libs/helpers";
 
 const REVIEWS_QUERY = `*[_type == "Reviews"]{
   _id,

@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { Star } from "lucide-react";
 import { motion, Variants } from "framer-motion";
+import Link from "next/link";
 
 export default function HeroSection() {
   const containerVariants: Variants = {
@@ -139,32 +140,41 @@ export default function HeroSection() {
             className="flex flex-col md:flex-row justify-center items-center gap-6"
             variants={itemVariants}
           >
-            <motion.button
-              whileHover={{
-                scale: 1.05,
-                boxShadow: "0 30px 45px rgba(42,42,42,0.25)",
-              }}
-              whileTap={{ scale: 0.98 }}
-              className="w-full md:w-[190px] h-14 bg-[#2a2a2a] text-base leading-6 text-white shadow-[0_25px_35px_rgba(42,42,42,0.15)] hover:bg-[#1f1f1f] hover:shadow-[0_25px_35px_rgba(42,42,42,0.25)] transition-all duration-300 rounded-2xl cursor-pointer"
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.9, duration: 0.5 }}
+            <Link
+              href="/signin"
+              className="w-full flex justify-center items-center md:w-[190px] h-14 bg-[#2a2a2a] text-base leading-6 text-white shadow-[0_25px_35px_rgba(42,42,42,0.15)] hover:bg-[#1f1f1f] hover:shadow-[0_25px_35px_rgba(42,42,42,0.25)] transition-all duration-300 rounded-2xl cursor-pointer"
             >
-              Start for free
-            </motion.button>
-            <motion.button
-              whileHover={{
-                scale: 1.05,
-                boxShadow: "0 15px 25px rgba(0,154,73,0.2)",
-              }}
-              whileTap={{ scale: 0.98 }}
-              className="w-full md:w-[190px] h-14 border border-[#009a49] bg-white text-base leading-6 text-[#009a49] rounded-2xl cursor-pointer hover:bg-[#009a49] hover:text-white transition-all duration-300"
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.9, duration: 0.5 }}
+              <motion.button
+                whileHover={{
+                  scale: 1.05,
+                  boxShadow: "0 30px 45px rgba(42,42,42,0.25)",
+                }}
+                whileTap={{ scale: 0.98 }}
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.9, duration: 0.5 }}
+              >
+                Start for free
+              </motion.button>
+            </Link>
+            <Link
+              href="/demo"
+              className="w-full flex justify-center items-center md:w-[190px] h-14 border border-[#009a49] bg-white text-base leading-6 text-[#009a49] rounded-2xl cursor-pointer hover:bg-[#009a49] hover:text-white transition-all duration-300"
             >
-              Request a Demo
-            </motion.button>
+              <motion.button
+                whileHover={{
+                  scale: 1.05,
+                  boxShadow: "0 15px 25px rgba(0,154,73,0.2)",
+                }}
+                whileTap={{ scale: 0.98 }}
+                className="w-full md:w-[190px] h-14 border border-[#009a49] bg-white text-base leading-6 text-[#009a49] rounded-2xl cursor-pointer hover:bg-[#009a49] hover:text-white transition-all duration-300"
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.9, duration: 0.5 }}
+              >
+                Request a Demo
+              </motion.button>
+            </Link>
           </motion.div>
 
           <motion.div

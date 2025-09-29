@@ -1,5 +1,5 @@
 import Image from "next/image";
-import NoSearch from "../../public/reviews/no-search.png";
+import NoSearch from "@/public/reviews/no-search.png";
 
 export default function EmptyReview() {
   return (

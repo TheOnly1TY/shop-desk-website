@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Logo from "../_ui/Logo";
+import Logo from "../../_ui/Logo";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -10,15 +11,19 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-start md:justify-between md:items-center py-6">
           <div>
             <p className="text-base leading-6">Join 10,000+ businesses</p>
-            <p className="text-base leading-6">Download ShopDesk App</p>
+            <p className="text-base leading-6">Manage your shop</p>
           </div>
           <div className="flex md:justify-center items-center gap-6 md:gap-4 mt-4 md:mt-0">
-            <button className="text-sm leading-5 text-white bg-[#009a49] hover:border hover:border-[#009a49] hover:bg-white hover:text-[#009a49] transition-all duration-300 ease-in-out rounded-[6px] py-2.5 px-4 cursor-pointer">
-              Download for Mobile
-            </button>
-            <button className="text-sm leading-5 text-white bg-[#009a49] hover:border hover:border-[#009a49] hover:bg-white hover:text-[#009a49] transition-all duration-300 ease-in-out rounded-[6px] py-2.5 px-4 cursor-pointer">
-              Download for PC
-            </button>
+            <Link href="/signin">
+              <button className="text-sm leading-5 text-white bg-[#009a49] hover:border hover:border-[#009a49] hover:bg-white hover:text-[#009a49] transition-all duration-300 ease-in-out rounded-[6px] py-2.5 px-4 cursor-pointer">
+                Start for free
+              </button>
+            </Link>
+            <Link href="/demo">
+              <button className="text-sm leading-5 text-white bg-[#009a49] hover:border hover:border-[#009a49] hover:bg-white hover:text-[#009a49] transition-all duration-300 ease-in-out rounded-[6px] py-2.5 px-4 cursor-pointer">
+                Request a demo
+              </button>
+            </Link>
           </div>
         </div>
         <hr className="border-t border-[#BBBBBB]" />

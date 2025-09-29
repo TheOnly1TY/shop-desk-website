@@ -3,9 +3,9 @@
 import Image from "next/image";
 import { useState } from "react";
 import { Star } from "lucide-react";
-import { ReviewCardProps } from "../types/Type";
+import { ReviewCardProps } from "../../types/Type";
 import LoadMoreButton from "../_ui/LoadMoreButton";
-import { extractPlainText } from "../_libs/helpers";
+import { extractPlainText } from "../../_libs/helpers";
 
 export default function ReviewCard({ Data, searchWord }: ReviewCardProps) {
   const [nextReviews, setNextReviews] = useState(9);

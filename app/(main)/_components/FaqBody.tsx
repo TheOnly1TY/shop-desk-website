@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import FAQData from "../../public/data/faq.json";
+import FAQData from "../../../public/data/faq.json";
 import { useState } from "react";
 
 export default function FaqBody() {

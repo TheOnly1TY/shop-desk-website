@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Logo from "../_ui/Logo";
+import Logo from "../../_ui/Logo";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -55,7 +55,9 @@ export default function Navbar() {
                hover:border-[#009a49] hover:border hover:text-[#009a49] hover:bg-transparent 
                transition-all duration-300 ease-in-out cursor-pointer"
             >
-              <a href="#">Download Now</a>
+              <Link href="/signin" onClick={() => setIsNavItemOpen(false)}>
+                Sign In
+              </Link>
             </li>
           </ul>
 

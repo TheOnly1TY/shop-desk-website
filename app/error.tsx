@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Error() {
   return (
     <div className="flex justify-center flex-col gap-4 items-center min-h-screen pt-35">
-      <h2 className="text-4xl font-bold text-[#2a2a2a]">
+      <h2 className="text-4xl font-bold text-[#171717]">
         Something went wrong :(
       </h2>
 

@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { circular } from "./fonts";
-import Navbar from "./_components/Navbar";
-import Footer from "./_components/Footer";
+import { Slide, ToastContainer } from "react-toastify";
 
 export const metadata: Metadata = {
   title: {
@@ -21,9 +20,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${circular.className} antialiased`}>
-        <Navbar />
-        <main className="relative flex-grow overflow-hidden">{children}</main>
-        <Footer />
+        {children}
+        <ToastContainer
+          position="top-left"
+          autoClose={3000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick={false}
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="light"
+          transition={Slide}
+        />
       </body>
     </html>
   );

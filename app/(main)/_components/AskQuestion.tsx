@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Modal from "../_components/Modal";
+import Modal from "./Modal";
 
 export default function AskQuestion() {
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);

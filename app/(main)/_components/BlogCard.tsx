@@ -5,7 +5,7 @@ import { useState } from "react";
 import BlogPost from "../_ui/BlogPost";
 import { SanityDocument } from "next-sanity";
 import LoadMoreButton from "../_ui/LoadMoreButton";
-import { extractPlainText } from "../_libs/helpers";
+import { extractPlainText } from "../../_libs/helpers";
 
 export default function BlogCard({
   FeaturedBlogPosts,

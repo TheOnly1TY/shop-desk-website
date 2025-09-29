@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import { PageProps } from "../types/Type";
+import { PageProps } from "../../types/Type";
 import ReviewList from "../_components/ReviewList";
 import FilterRating from "../_components/FilterRating";
 import InputRatingField from "../_components/InputRatingField";
@@ -15,7 +15,7 @@ export default async function page({ searchParams }: PageProps) {
   const params = await searchParams;
   const filter = Array.isArray(params?.rating)
     ? params?.rating[0]
-    : params?.rating ?? "all";
+    : (params?.rating ?? "all");
   const searchWord = Array.isArray(params?.search)
     ? params?.search[0]
     : params?.search || "";

@@ -1,5 +1,5 @@
 import { SanityDocument } from "next-sanity";
-import { client } from "../src/sanity/client";
+import { client } from "../../src/sanity/client";
 import BlogCard from "./BlogCard";
 
 const BLOG_QUERY = `*[_type == "Blog"]{
